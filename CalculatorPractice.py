@@ -4,7 +4,7 @@ from tkinter import *
 root = Tk()
 root.title("Calculator Practice")
 
-e = Entry(root, width=35, font=('Arial', 15),  borderwidth=5)
+e = Entry(root, width=35, font=('Arial', 10),  borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
 def button_click(number):
