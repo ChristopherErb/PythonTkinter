@@ -8,8 +8,8 @@ root.title("Chris's Learning")
 root.iconbitmap("C:/Users/Christopher/PycharmProjects/tkinter/LogoOnly.ico")
 
 #using Pillow (PIL above)
-
-my_img = ImageTk.PhotoImage(Image.open("profileFb.jpg"))
+#change
+my_img = ImageTk.PhotoImage(Image.open("images/profileFb.jpg"))
 
 my_label = Label(image=my_img)
 my_label.pack()
